@@ -1,0 +1,21 @@
+{
+  "name": "exdpro",
+  "version": "1.0.0",
+  "description": "A site for my friends. Design for fun.",
+  "main": "index.html",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "prod": "pm2 start ./server/server.js --name exdpro"
+  },
+  "keywords": [
+    "danetheory",
+    "branden",
+    "dane",
+    "dane-dev"
+  ],
+  "author": "Branden Dane <danetheory@gmail.com> (http://danetheory.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
